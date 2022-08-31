@@ -1,0 +1,45 @@
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+  height: 100%;
+}
+
+body {
+  font-size: 1.6rem;
+  min-height: 100%;
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.placeInput {
+  border-radius: 20px;
+  margin: 10px;
+  width: 300px;
+  height: 30px;
+  text-align: center;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+.searchBtn {
+  border-radius: 20px;
+  width: 300px;
+  height: 30px;
+  border: none;
+}
+.demo {
+  text-transform: capitalize;
+}

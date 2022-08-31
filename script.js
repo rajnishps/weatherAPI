@@ -34,7 +34,6 @@ const weather = async (lat, lon) => {
 };
 
 const current = (data) => {
-  console.log(data);
   const name = `<h2>${data.name}, ${place}, ${data.sys.country}</h2>`;
   const currWeather = `<h2>${data.weather[0].main}</h2>`;
   const humidity = `<h2>Humidity: ${data.main.humidity}</h2>`;

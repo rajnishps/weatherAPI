@@ -2,7 +2,7 @@ const demoDiv = document.querySelector(".demo");
 const placeInput = document.querySelector(".placeInput");
 const searchBtn = document.querySelector(".searchBtn");
 
-const apiKey = "${{ secrets.API }}";
+const apiKey = "5d193aa4e224e170b6490576cf40f0dc";
 let place = null;
 
 placeInput.addEventListener("keyup", (event) => {
